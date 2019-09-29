@@ -1,0 +1,54 @@
+
+.body {
+    display: grid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+    text-align: center;
+    grid-auto-columns: 200px 200px 200px;
+    grid-auto-rows: 100px;
+    grid-auto-flow: dense;
+    background-color:purple;
+    border: rgb(150, 81, 81);
+}
+
+.characters {
+    grid-column: -1 / 2;
+    border: gray;
+    background-color: purple;
+    border-block-end-width: 3px;
+    align-content: center;
+   
+}
+.container {
+    background-color: purple;
+}
+
+.header {
+    background-color: purple;
+}
+
+.title{
+    background-color: purple;
+}
+
+.maindiv {
+    grid-column: -1 / 2;
+    margin: 5%;
+    background-color: lightseagreen;
+    border-radius: 15%;
+    color: rgb(26, 2, 26);
+    border: green;
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color:  purple;
+    color: red;
+    font-size: 72;
+    padding-bottom: 5%;
+
+}
+
+
